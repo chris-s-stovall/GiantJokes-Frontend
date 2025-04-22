@@ -30,7 +30,7 @@ export const StoryViewer: React.FC<StoryViewerProps> = ({
     return () => {
       progress.setValue(0);
     };
-  }, [story.id]);
+  }, [story.id, onNext, progress]);
 
   return (
     <View style={[styles.container, { width, height }]}>
