@@ -8,4 +8,6 @@ export type MainTabParamList = {
   Feed: undefined;
   Stories: undefined;
   Premium: undefined;
+  Categories: undefined;
+  Settings: undefined;
 };
